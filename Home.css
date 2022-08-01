@@ -13,6 +13,7 @@ html {
 }
 
 body {
+  font-family: sans-serif;
   width: 100%;
   height: 100%;
 }
@@ -64,53 +65,41 @@ height: 100%;
   /*background-color: blueviolet;*/
   position: relative;
   top: 15%;
-  
+
+}
+
+.box {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 2em;
+  background-image: linear-gradient(rgb(212, 229, 245), lightgray)
+}
+
+.grid {
+    transition: all ease-in-out 0.5s;
+    position: absolute;
+    width: 80%;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .grid1 {
-  transition: all ease-in-out 0.5s;
-  position: absolute;
-  width: 500px;
-  height: 300px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-image: url("images/Workexperience.png");
   background-size: cover;
 
 }
 
 .grid2 {
-  transition: all ease-in-out 0.5s;
-  position: absolute;
-  width: 500px;
-  height: 300px;
-  top:45%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-image: url("images/Kunskaper2.jpg");
   background-size: cover;
 
   }
 
 .grid3 {
-  transition: all ease-in-out 0.5s;
-  position: absolute;
-  width: 500px;
-  height: 300px;
-  top:0%;
-  right: 0%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-image: url("images/Education2.jpg");
   background-size: cover;
 }
 
 .grid4 {
-  transition: all ease-in-out 0.5s;
-  position: absolute;
-  position: absolute;
-  width: 500px;
-  height: 300px;
-  top:45%;
-  right: 0%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-image: url("images/Certificate2.jpg");
   background-size: cover;
   }
@@ -139,11 +128,11 @@ height: 100%;
       left: -10%;
     }
     .ProfilePicture {
-      left: 5%;  
+      left: 5%;
     }
     .gridcontainer {
       top: 100%;
-      width: 150%;  
+      width: 150%;
     }
     .grid1 {
       top: -50%;
